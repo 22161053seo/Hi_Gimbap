@@ -1,0 +1,52 @@
+body, h2, dl, dt, dd, p, ul, li {margin: 0; padding: 0; box-sizing: border-box; }
+#name {font-size: 20px;
+}
+a {text-decoration: none; color: black;}
+button {border: none; background-color: transparent; cursor: pointer;}
+li {list-style: none;}
+
+.center {text-align: center;}
+.pointBg {background-color: rgb(0, 0, 0);}
+.blackBg {background-color: black;}
+
+.whiteText {color: rgb(255, 255, 255);}
+
+.titleText {font-size: 30px;}
+.bigText {font-size: 20px;}
+.smallText {font-size: 14px;
+color: black;}
+
+.inner img {border-color: 8px black; border-style: dotted; border-radius: 3rem; width: 1435px;}
+.inner {width: 1440px; margin: 70px auto; margin-top: 100px;}
+.arrow {position: absolute; top: -50px; right: 0; width: 31px; height: 31px; background-image: url("/ico.png");}
+.arrow.prev {right: 150px; background-position: -351px -205px;}
+.arrow.next {right: 50px; background-position: -269px -205px;}
+
+#product {position: relative; bottom: 330px; overflow: hidden; margin-top: -500px;}
+#product { height: 780px;}
+#product #imgSet {white-space: nowrap; height: 540px; margin-top: 40px; transition: transform 1s;}
+
+#product #textSet {border-radius: 3rem; position: relative; width: 1120px; left: 50%; margin-left: -560px;}
+#product #textSet::before { border-radius: 3rem 3rem 0 0;content: ""; background-color: white; width: 100%; height: 80px; position: absolute; top: -80px;}
+#product #textSet::after {border-radius: 0 0 3rem 3rem;content: ""; background-color: rgb(0, 0, 0); width: 100%; height: 140px; position: absolute; top: 0px;}
+
+#product #textSet dt {position: absolute; top: -50px; left: 50px;}
+#product #textSet dd>p {position: absolute; top: 0px; left: 0px; padding: 40px 270px 40px 220px;}
+#product #textSet dd>p>span {position: absolute; top: 40px; left: 40px; font-weight: bold;}
+
+#product #textSet dd .button {position: absolute; top: 50px; right: 50px; height: 45px; line-height: 45px; border-radius: 23px; padding: 0 20px; font-weight: bold; display: none;}
+#product #textSet dd .button:hover {background-color: black;}
+
+#product #textSet dt, #product #textSet dd>p {margin-top: 30px; opacity: 0;}
+#product #textSet dt.active, #product #textSet dd.active>p {animation: textMove 1s forwards;}
+#product #textSet dd .button.active {display: block;}
+@keyframes textMove {from {} to {margin-top: 0px; opacity: 1;}}
+/*  */
+#productList {position: absolute; top: 0; left: 0; top: -120px; left: 50%; margin-left: -45px; cursor: pointer;}
+#productList li {width: 10px; height: 10px; background-color: white; display: inline-block; margin: 0 10px; border-radius: 50%;}
+#productList li.active {background-color: rgb(0, 0, 0);}
+
+#product #textSet dt {z-index: 1; }
+#product #textSet dd>p {z-index: 2;}
+#product #textSet dd .button {z-index: 3;}
+#product #productList {z-index: 4;}

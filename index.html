@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/belt.css">
+    <link rel="stylesheet" href="css/recommend.css">
+    <link rel="stylesheet" type="text.css" href="mouse.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300&family=Nanum+Pen+Script&display=swap"
+        rel="stylesheet">
+
+    <title>introduce</title>
+    <style>
+        body {
+            justify-self: unset;
+            font-family: 'Gaegu', 'Nanum Pen Script', cursive;
+            width: fit-content;
+            overflow: scroll;
+            /* cursor: url('img/chopsticks1.png'), auto; */
+            cursor: url(img/chopsticks1.png) 5 5, progress;
+            margin: 0;
+            padding: 0;
+            background-color: #f6bc52;
+            background-position: center;
+            height: 3900px;
+        }
+
+        ::-webkit-scrollbar {
+            background-color: #f6bc52;
+            width: 40px;
+
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-image: url(img/굴러가는김밥.png);
+            background-repeat: no-repeat;
+            background-size: 40px;
+            background-color: rgba(0, 0, 0, 0);
+            border-radius: 30px;
+
+        }
+
+        header {
+            margin-top: 30px;
+            margin-left: 100px;
+            height: 150px;
+            position: relative;
+        }
+
+        header #logo {
+            cursor: url(img/chopsticks2.png) 5 5, progress;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+        }
+
+        header #main_menu {
+            text-align: right;
+            margin-left: 400px;
+            width: 757px;
+            height: 38px;
+            position: absolute;
+            top: 40px;
+            left: 210px;
+        }
+
+        header #main_menu li {
+
+            display: inline-block;
+            margin: 10px 60px 0 95px;
+            font-weight: bold;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        header #main_menu a:link {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        header #main_menu a:hover {
+            cursor: url(img/chopsticks2.png) 5 5, progress;
+            text-decoration: none;
+            color: #000000;
+        }
+
+        header #main_menu a:visited {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        header #main_menu a:active {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        .gimbap {
+            width: 100px;
+            height: 100px;
+            background-image: url("./img/굴러가는김밥.png");
+            background-color: #ffffff;
+            border-radius: 100%;
+            position: relative;
+            animation: gimbap-motion 5s ease-in-out infinite;
+            /* transform: skew(-20);   */
+        }
+
+        @keyframes gimbap-motion {
+            0% {
+                transform: rotate(45deg);
+                left: 0;
+            }
+
+            70% {
+                transform: rotate(225deg);
+                left: 90%;
+            }
+
+            100% {
+                transform: rotate(360deg);
+                left: 0%;
+            }
+        }
+
+        .cup {
+            margin-top: 50px;
+            margin-left: 165px;
+            width: 80%;
+            height: 900px;
+            border: 2px solid #fde1e100;
+            position: absolute;
+            overflow: hidden;
+        }
+
+        .water {
+            width: 100%;
+            background-image: url(img/도마\ 질감.png);
+            background-repeat: no-repeat;
+            /* background-color: rgb(0, 0, 0); */
+            /* position: fixed; */
+            bottom: 0;
+            transition: height 0.4s;
+            position: sticky;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+            position: relative;
+            color: #000000;
+            z-index: 10;
+        }
+
+        h3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 5;
+            padding-top: 30px;
+            font-size: 35px;
+            color: #f6bc52;
+        }
+
+        h2 {
+            position: relative;
+            height: min-content;
+            top: -550px;
+            z-index: 15;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        h2 p {
+            animation: blink 1s infinite;
+            color: green;
+            position: relative;
+            justify-content: center;
+            top: 10px;
+            left: 230px;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        h2 img {
+            position: relative;
+            bottom: 10px;
+            border-radius: 2rem;
+            padding: 20px;
+        }
+
+        .main-content-1 {
+            position: relative;
+            top: -400px;
+        }
+
+        /*------------------------------------------------------------------------*/
+        html {
+            vertical-align: baseline;
+        }
+
+        #title_second {
+            font-size: 40px;
+            font-weight: 100;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        blockquote,
+        q {
+            quotes: none;
+        }
+
+        blockquote:before,
+        blockquote:after,
+        q:before,
+        q:after {
+            content: "";
+            content: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+
+        .start-screen,
+        .end-screen {
+            width: 100%;
+            height: 100vh;
+            background-color: #000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8vw;
+            color: #f1f1f1;
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        .main-content-1 {
+            width: 100%;
+            height: 500vh;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .sticky-background {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 8vw;
+        }
+
+        .card-frame {
+
+            position: absolute;
+            width: 95vw;
+            height: 30vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .card {
+
+            width: 24%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20vw;
+            transform-style: preserve-3d;
+            position: relative;
+            transform: perspective(100vw) translateX(100vw) rotateY(180deg);
+            transition: transform 0.1s;
+        }
+
+        .front,
+        .back {
+            box-shadow: 5px 5px 5px 5px #6d4e22;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 1vw;
+            overflow: hidden;
+            backface-visibility: hidden;
+        }
+
+        .front {
+            border: solid 5px;
+            background-color: #ffffff;
+            text-align: center;
+            font-size: 17px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .front li {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .back {
+
+            transform: rotateY(180deg);
+            text-align: center;
+            font-size: 50px;
+            color: white;
+            background-color: #00000087;
+            background-image: repeating-linear-gradient(0deg, #000000, #000000 33.3%, #00000000 0px, #00000000 67%);
+            background-size: 100%;
+        }
+
+        .back img {
+            width: 180px;
+            margin-top: 160px;
+            justify-items: center;
+        }
+
+        @media screen and (orientation:portrait) {
+            .card-frame {
+                display: grid;
+                height: initial;
+                width: initial;
+                grid-template-rows: repeat(2, 1fr);
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10vw;
+                justify-items: center;
+            }
+
+            .card {
+                font-size: 20vw;
+                width: 35vw;
+                height: 50vw;
+            }
+        }
+
+        #recommend {
+            
+            margin-bottom: 800px;
+            width: 100%;
+            margin-left: 200px;
+            font-size: 70px;
+            text-align: center;
+            justify-items: center;
+        }
+
+        #box {
+            pointer-events: none;
+            text-align: center;
+            box-shadow: 5px 5px 5px 5px #6d4e22;
+            left: 650px;
+            position: relative;
+            top: -3250px;
+            justify-content: center;
+            box-sizing: border-box;
+            height: 500px;
+            width: 300px;
+            color: white;
+            border-radius: 1rem;
+            border: solid 5px rgb(255, 255, 255);
+            background-color: rgba(0, 0, 0, 0.668);
+        }
+
+        #box ul {
+            position: relative;
+            top: 140px;
+        }
+
+        #box::before {
+            content: '';
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: url(img/pngegg.png);
+            background-size: cover;
+            opacity: 40%;
+            animation: moveShape 5s linear infinite;
+        }
+
+        @keyframes moveShape {
+            0% {
+                transform: translatex(-500px) rotate(0deg);
+            }
+
+
+            100% {
+                transform: translatex(300px) rotate(360deg);
+            }
+        }
+
+        #box2 {
+            text-align: center;
+            font-weight: 500;
+            font-size: 16px;
+            margin-left: 150px;
+            position: relative;
+            display: grid;
+            top: -3760px;
+            height: 300px;
+        }
+        .aa {
+        
+        float: left;
+        padding-top: 40px;
+        padding-right: 1000px;
+        }
+        /* .aa:hover {
+            transform: scale(1.1);
+        } */
+        .bb {
+            float: left;
+            padding-right: 700px;
+            padding-top: 50px;
+        }
+        /* .bb:hover {
+            transform: scale(2);
+        } */
+        .cc {
+            float: left;
+            padding-right: 1000px;
+            padding-top: 60px;
+        }
+        /* .cc:hover {
+            transform: scale(1.1);
+        } */
+        .dd {
+            float: right;
+            padding-left: 700px;
+            margin-top: -350px;
+        }
+        .ee {
+            float: right;
+            padding-left: 550px;
+            margin-top: -100px;
+        }
+        .oo {
+            position: relative;
+            top: -100px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+
+        #last p {
+            top: -200px;
+            position: relative;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            font-size: 50px;
+
+            animation: bounce 0.5s ease-out alternate-reverse infinite;
+        }
+        @keyframes bounce {
+  100% {
+    transform: translateY(-10%);
+  }}
+
+
+  #trend {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: -3400px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+  .p_trend  {
+    font-size: 70px;
+    justify-content: center;
+    text-align: center;
+  }
+  .p2_trend {
+    font-size: 55px;
+    justify-content: center;
+    text-align: center;
+  }
+  .memil {
+    margin-top: 80px;
+    margin-left: 250px;
+    float: left;
+    font-size: 22px;
+  }
+  .memil li {
+    margin-top: 10px;
+  }
+  .memil img {
+    filter: brightness(0%);
+  }
+  .memil img:hover{
+    filter: brightness(100%);
+  }
+  .egg {
+    margin-top: 80px;
+    margin-right: 250px;
+    float: right;
+    font-size: 22px;
+  }
+  .egg li {
+    margin-top: 10px;
+  }
+  .egg img {
+    filter: brightness(0%);
+  }
+  .egg img:hover{
+    filter: brightness(100%);
+  }
+
+
+  /* #ggang_svg, #ggang_svg1  {
+    transform: translateY(-1000px);
+            position:  relative;
+            top: -600px;
+            left: 0;
+            bottom: 200px;
+            margin-bottom: 500px;
+        }
+        #ggang_svg path, #ggang_svg1 path {
+            width: 100%;
+            fill: none;
+            
+        }
+        .full {
+            margin-left: 40px;
+            position: relative;
+            text-align: center;
+            justify-items: center;
+            color:  #000000;
+            font-size: 70px;
+            /* background-color: black; */
+      
+        footer {
+            position: relative;
+
+            background-color: #6d4e22;
+            height: 300px;
+            width: 100%;
+        }
+
+        #address {
+            float: left;
+            margin-top: 15px;
+            font-size: 18px;
+            color: #ffffff;
+            margin-left: 100px;
+        }
+
+        #address li {
+            padding-top: 8px;
+        }
+
+        #thank {
+            /* font-weight: bolder; */
+            text-shadow: -0.5px -0.5px 0 #fff, 0.2px -0.2px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+            margin-top: 30px;
+            font-size: 40px;
+            float: right;
+            margin-right: 200px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img id="logo" src="./img/김밥로고.png" alt="" width="160"></a>
+        <nav id="main_menu">
+            <ul>
+                <li><a href=".card-frame">Types of Gimbap</a></li>
+                <li><a href="#recommend">Famous restaurant</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>document.addEventListener('DOMContentLoaded', function () {
+            var links = document.querySelectorAll('ul li a');
+            links.forEach(function (link) {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault(); 
+                    var targetId = this.getAttribute('href'); 
+                    var targetElement = document.querySelector(targetId); 
+                    if (targetElement) {   
+                        window.scrollTo({
+                            top: targetElement.offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });</script>
+
+    <section>
+        <h1>Do you know Gimbap?</h1>
+
+    </section>
+    </div>
+    <div class="gimbap"></div>
+
+    <div class="cup">
+        <div class="water"></div>
+
+    </div>
+    <h3>First of all, what is gimbap?</h3>
+
+
+
+
+
+    <script>
+        window.addEventListener('scroll', function () {
+            var cup = document.querySelector('.cup');
+            var water = document.querySelector('.water');
+            var scrollPercent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 1200;
+            var waterHeight = Math.min(scrollPercent, 100); // 최대 100%로 제한
+
+            water.style.height = waterHeight + '%';
+        });
+    </script>
+
+
+
+    <section>
+        <div class="cover">
+            <p class="first-parallel"></p>
+        </div>
+
+        <div class="cover">
+            <p class="second-parallel"></p>
+        </div>
+        <h2>
+            <김 위에 밥을 펴 놓고고 여러 가지 반찬을 채워 둘둘 말아 싸서 썰어 먹는 음식><br>
+                장소에 구애받지 않고 간편하게 먹을 수 있으며 간단한 점심,<br> 또는 소풍이나 여행을 갈 때 도시락으로도 유용<br>
+                <p>Like This!</p>
+                <img src="img/home.jpg" alt="" width="250"><img src="img/home2.jpg" alt="" width="250">
+        </h2>
+        <script>
+            const pTag1 = document.querySelector('.first-parallel')
+            const pTag2 = document.querySelector('.second-parallel')
+           
+
+            const textArr1 = "Let's roll gimbap Let's roll gimbap".split(' ')
+            const textArr2 = 'Good taste Degururr Degururr Degururr'.split(' ')
+            
+
+            let count1 = 0
+            let count2 = 0
+            
+
+            initTexts(pTag1, textArr1)
+            initTexts(pTag2, textArr2)
+           
+
+            function initTexts(element, textArray) {
+                textArray.push(...textArray)
+                for (let i = 0; i < textArray.length; i++) {
+                    element.innerText += `${textArray[i]}\u00A0\u00A0\u00A0\u00A0`
+                }
+            }
+
+            function marqueeText(count, element, direction) {
+                if (count > element.scrollWidth / 2) {
+                    element.style.transform = `translate3d(0, 0, 0)`
+                    count = 0
+                }
+                element.style.transform = `translate3d(${direction * count}px, 0, 0)`
+
+                return count
+            }
+
+            function animate() {
+                count1++
+                count2++
+               
+
+                count1 = marqueeText(count1, pTag1, -1)
+                count2 = marqueeText(count2, pTag2, 1)
+    
+
+                window.requestAnimationFrame(animate)
+            }
+
+            function scrollHandler() {
+                count1 += 15
+                count2 += 15
+               
+            }
+
+            window.addEventListener('scroll', scrollHandler)
+            animate()
+        </script>
+    </section>
+
+    <section>
+        <div class="main-content-1">
+            <div class="sticky">
+                <div class="sticky-background">
+                    <p id="titel_second">Basic Gimbap Ingredients</p>
+                </div>
+                <div class="card-frame">
+                    <div class="card">
+                        <div class="front">
+                            <ul>
+                                <li><img src="img/당근.png" alt="" width="80"></li>
+                                <li><b>당근</b></li>
+                                <li>넉넉한 긱름에 볶아 소금 2꼬집으로 간을 맞춰춘다</li>
+                            </ul>
+                        </div>
+                        <div class="back"><img src="img/김밥로고.png" alt=""></div>
+                    </div>
+                    <div class="card">
+                        <div class="front">
+                            <ul>
+                                <li><img src="img/오이.png" alt="" width="190"></li>
+                                <li><b>오이</b></li>
+                                <li>소금 2꼬집, 설탕 0.5숟가락, 식초 1숟가락으로 밑간을해준다</li>
+                        </div>
+                        <div class="back"><img src="img/김밥로고.png" alt=""></div>
+                    </div>
+                    <div class="card">
+                        <div class="front">
+                            <ul>
+                                <li><img src="img/단무지, 우엉.png" alt="" width="250"></li>
+                                <li><b>우엉과 단무지</b></li>
+                                <li>우엉과 단무지는 시판재료 사용(물애 살짝 씻어내는 정도)</li>
+                            </ul>
+                        </div>
+                        <div class="back"><img src="img/김밥로고.png" alt=""></div>
+                    </div>
+                    <div class="card">
+                        <div class="front">
+                            <ul>
+                                <li><img src="img/달걀.png" alt="" width="110"></li>
+                                <li><b>달걀</b></li>
+                                <li>달걀을 풀어 중약 불로 타지 않게 볶아 준다</li>
+                            </ul>
+                        </div>
+                        <div class="back"><img src="img/김밥로고.png" alt=""></div>
+                    </div>
+                    <div class="card">
+                        <div class="front">
+                            <ul>
+                                <li><img src="img/햄.png" alt="" width="230"></li>
+                                <li><b>햄</b></li>
+                                <li>당근 기름이 남아있는 상태에서 노릇노릇 볶아 준다</li>
+                            </ul>
+                        </div>
+                        <div class="back"><img src="img/김밥로고.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            class CardFlipOnScroll {
+                constructor(wrapper, sticky) {
+                    this.wrapper = wrapper
+                    this.sticky = sticky
+                    this.cards = sticky.querySelectorAll('.card')
+                    this.length = this.cards.length
+
+                    this.start = 0
+                    this.end = 0
+                    this.step = 0
+                }
+
+                init() {
+                    this.start = this.wrapper.offsetTop - 100
+                    this.end = this.wrapper.offsetTop + this.wrapper.offsetHeight - innerHeight * 5
+                    this.step = (this.end - this.start) / (this.length * 2)
+                }
+
+                animate() {
+                    this.cards.forEach((card, i) => {
+                        const s = this.start + this.step * i
+                        const e = s + this.step * (this.length + 1)
+
+                        if (scrollY <= s) {
+                            card.style.transform = `
+            perspective(100vw)
+            translateX(100vw) 
+            rotateY(180deg)
+            `
+                        } else if (scrollY > s && scrollY <= e - this.step) {
+                            card.style.transform = `
+            perspective(100vw)
+            translateX(${100 + (scrollY - s) / (e - s) * -100}vw)
+            rotateY(180deg)
+            `
+                        } else if (scrollY > e - this.step && scrollY <= e) {
+                            card.style.transform = `
+            perspective(100vw)
+              translateX(${100 + (scrollY - s) / (e - s) * -100}vw)
+              rotateY(${180 + -(scrollY - (e - this.step)) / this.step * 180}deg)
+            `
+                        } else if (scrollY > e) {
+                            card.style.transform = `
+            perspective(100vw)
+            translateX(0vw) 
+            rotateY(0deg)
+            `
+                        }
+                    })
+                }
+            }
+
+            const mainContent1 = document.querySelector('.main-content-1')
+            const sticky = document.querySelector('.sticky')
+            const cardFlipOnScroll = new CardFlipOnScroll(mainContent1, sticky)
+            cardFlipOnScroll.init()
+
+            window.addEventListener('scroll', () => {
+                cardFlipOnScroll.animate()
+            })
+
+            window.addEventListener('resize', () => {
+                cardFlipOnScroll.init()
+            })
+        </script>
+    </section>
+    <section id="box">
+        <ul>
+            <li class="oo">HIDDEN CARD</li>
+            <li><img src="img/김밥로고.png" alt="" width="200"></li>
+            <li>먹을 수 있는 것이라면 모두!</li>
+        </ul>
+    </section>
+    <section id="box2">
+       <ul class="aa">
+        <li><img src="img/상추, 깻잎.png" alt="" width="120"></li>
+        <li>상추 or 깻잎</li>
+       </ul>
+       <ul class="bb">
+        <li><img src="img/치킨.png" alt="" width="120"></li>
+        <li>치킨</li>
+       </ul>
+       <ul class="cc">
+        <li><img src="img/토마토.png" alt="" width="120"></li>
+        <li>토마토</li>
+       </ul>
+       <ul class="dd">
+        <li><img src="img/치즈.png" alt="" width="120"></li>
+        <li>치즈</li>
+       </ul>
+       <ul class="ee">
+        <li><img src="img/참치.png" alt="" width="120"></li>
+        <li>참치(생선)</li>
+       </ul>
+    </section>
+    <script>
+        document.addEventListener('mousemove', function (e) {
+            let body = document.querySelector('body');
+            let image = document.createElement('span');
+            let x = e.offsetX;
+            let y = e.offsetY;
+            image.style.left = x + 'px';
+            image.style.top = y + 'px';
+
+            body.appendChild(image);
+
+            setTimeout(function () {
+                image.remove();
+            }, 1000);
+
+        })
+    </script>
+
+
+<section id="trend">
+     <p class="p_trend">Trend these days: Diet Gimbap </p>
+     <p class="p2_trend">쌀 대신 OOO으로! </p>
+     <ul class="memil">
+     <li><img src="img/메밀면.png" alt="" width="300"></li>
+     <li><b>쌀 대신 메밀면을 이용해 탄수화물 Down</b></li>
+     <li>플라보노이드 성분이 풍부(알콜해독, 간 기능 회복)</li>
+     <li>코린 성분(숙취해소)</li>
+     <li>필수 아미노산, 비타민 풍부(비만 예방)</li>
+     <li>루틴 성분(혈전방지->혈액순환도움)</li>
+     <li>카이로이노시톨 성분(혈당 ↑)</li>
+    </ul>
+     <ul class="egg">
+        <li><img src="img/키토김밥.png" alt="" height="450" width="440"></li>
+        <li><b>쌀 대신 계란을 이용해 탄수화물 Down</b></li>
+        <li>탄수화물은 최소화하고 지방,단백질 ↑</li>
+        <li>좋은 HDL 콜레스레롤 ↑</li>
+        <li>코린 성분(숙취해소)</li>
+        <li>루테인지아잔틴 성분(눈 건강 도움)</li>
+        <li>고단백 식품으로 포만감 유발</li>
+     </ul>
+
+    </section>
+
+
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300"><path fill="#000000" fill-opacity="1" d="M0,128L48,122.7C96,117,192,107,288,128C384,149,480,203,576,213.3C672,224,768,192,864,154.7C960,117,1056,75,1152,90.7C1248,107,1344,181,1392,218.7L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <p class="full">Full of nutrients!!</p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300"><path fill="#000000" fill-opacity="1" d="M0,64L30,90.7C60,117,120,171,180,197.3C240,224,300,224,360,208C420,192,480,160,540,154.7C600,149,660,171,720,186.7C780,203,840,213,900,208C960,203,1020,181,1080,176C1140,171,1200,181,1260,197.3C1320,213,1380,235,1410,245.3L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+
+   <script>
+        const svgDraw = function(el, cor, sp) {
+            const path = document.querySelector(el);
+            let speed = sp;
+            let offset = speed;
+            let color = cor;
+            set();
+            function set() {
+                path.style.stroke = color;
+                path.style.strokeWidth = 4;
+                path.style.strokeDasharray = path.getTotalLength() + ',' + path.getTotalLength();
+                path.style.strokeDashoffset = path.getTotalLength();
+                window.requestAnimationFrame(draw.bind(this))
+            }
+            function draw() {
+            if(speed < path.getTotalLength()) {
+                path.style.strokeDashoffset = path.getTotalLength() - speed;
+                window.requestAnimationFrame(draw.bind(this));
+                speed = speed + offset;
+            }else if(speed > path.getTotalLength()){
+                path.style.fill = color
+            }
+        }
+    }
+    svgDraw('ggang_svg path', '#273036', 20);
+    svgDraw('ggang_svg1 path_','#273036', 20); -->
+</script>
+
+
+    <p id="recommend">Lastly, recommend a special restaurant</p>
+    <section class="inner" id="product">
+
+        <div id="imgSet"><img src="img/recommend.jfif" alt="" id="img0"><img src="img/recommend2.jfif" alt=""
+                id="img1"><img src="img/recommend3.jfif" alt="" id="img2"></div>
+
+        <dl id="textSet">
+            <dt id="dt0" class="active">00 서울 마포구 독막로 82 1층 골드김밥</dt>
+            <dd id="dd0" class="whiteText active">
+                <p id="name"><span class="bigText">골드김밥</span>부드러운 통계랑을 밥대신 넣어 말아주는 서울 키토김밥 맛집.</p>
+                <a href="#" id="btn0" class="button pointBg whiteText smallText active">제품상세보기 0</a>
+            </dd>
+            <dt id="dt1">01 강원 속초시 중앙로147번길 16 1층 53호</dt>
+            <dd id="dd1" class="whiteText">
+                <p id="name"><span class="bigText">장홍김밥</span>파채를 듬뿍 올려주는 속초명란김밥(가리비젓 추가 필수,김밥 종류 딱 한가지)</p>
+                <a href="#" id="btn1" class="button pointBg whiteText smallText">제품상세보기 1</a>
+            </dd>
+            <dt id="dt2">02 경남 거제시 일운면 지세포로 101</dt>
+            <dd id="dd2" class="whiteText">
+                <p id="name"><span class="bigText">쌤김밥</span>오독오독 씹히는 톳이 매력적인 백종원골목식당 김밥집</p>
+                <a href="#" id="btn2" class="button pointBg whiteText smallText">제품상세보기 2</a>
+            </dd>
+        </dl>
+    </section>
+    <script src="./js/recommend.js"></script>
+    <section id="last">
+        <p>Make a special kimbap with your own ingredients<br>나만의 재료로 특별한 김밥을 만들어보세요</p>
+    </section>
+    <footer>
+        <ul id="address">
+            <li><img src="img/김밥로고.png" alt="" width="120"></li>
+            <li>company : gimbap</li>
+            <li>name : Choi SeoYeong</li>
+            <li>address :대한민국 경기도 화성시 000</li>
+            <li></li>
+        </ul>
+        <ul id="thank">
+            <li>Thank you for readding</li>
+        </ul>
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
